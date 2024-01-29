@@ -1,5 +1,4 @@
-// C program to find the maximum number out of the three
-// given numbers using if-else statement
+// C program to find the maximum number out of the three given numbers using if-else statement
 #include <stdio.h>
  
 int main()
@@ -8,8 +7,6 @@ int main()
  
     printf("Enter the numbers A, B and C: ");
     scanf("%d %d %d", &A, &B, &C);
- 
-    // finding max using compound expressions
     if (A >= B && A >= C)
         printf("%d is the largest number.", A);
  
